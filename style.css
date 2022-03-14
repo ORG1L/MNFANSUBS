@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header{
+    margin-bottom: 1rem;
+}
+
+.header .head {
+    height: 150px;
+    max-width: 1400px;
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+}
+
+section{
+    margin-bottom: 1rem;
+}
+
+section .container .head1{
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.nav{
+    margin: 1rem;
+}
+
+.nav .container .rows{
+    width: 25%;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+main{
+    margin-bottom: 2rem;
+}
+
+main .container{
+    display: flex;
+    gap: 1rem;
+}
+
+main .container .grid{
+    width: 70%;
+}
+
+main .container .grid .grid1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .container .grid .grid1 .news{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+
+main .container .grid .grid1 .news:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+main .container .grid .grid2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    gap: 1rem;
+}
+
+main .container .grid .grid2 .box{
+    background-color: lightskyblue;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+main .container .flex{
+    width: 30%;
+    height: 913px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+footer .container .boxs{
+    width: 25%;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
